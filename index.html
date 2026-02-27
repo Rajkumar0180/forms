@@ -6,106 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="./index1.html">
-        <h1 align="center">ANDHRA PRADESH STATE ROAD TRANSPORT CORPORATION</h1>
-        <h1 align="center">GENERAL BUS PASS APPLICATION</h1>
-
-        <fieldset>
-            <legend><h4>Application Details</h4></legend>
-            <label>Name *</label>
-            <input type="text" required maxlength="20">
-            <label>Father's Name *</label>
-            <input type="text" required><br><br
-            <label>Date of Birth*</label>
-            <input type="date">
-            <label>Gender*</label>
-            <input type="radio" name="gender" value="male" required> Male
-            <input type="radio" name="gender" value="female" required> Female<br><br>
-            <label>Age As on:</label>
-            <input type="text" requred>
-            <label>Adhaar No:</label>
-            <input type="text" required><br><br>
-            <label>watsApp No*</label>
-            <input type="tel" required>
-            <label>E-mail Id</label>
-            <input type="email"><br><br>
-            <label>photo</label>
-            <input type="file" required>
-
-        </fieldset>
-<br>
-
+    <form action="./index1.html" align="center">
     <fieldset>
-        <legend><h4>Residential Address Details</h4></legend>
-         <label>Applicant's Address*</label>
-         <textarea></textarea>
-         <label>District*</label>
-            <select>
-                <option value="select" disabled selected>----select------ </option>
-                <option value="Chirala">Chirala</option>
-                <option value="Bapatla">Bapatla</option>
-                <option value="Guntur">Guntur</option>
-                <option value="ongole">ongole</option>
-            </select><br><br>
-        <label>Mandal*</label>
-            <select>
-                <option value="select" disabled selected>----select------ </option>
-                <option value="Chirala">Chirala</option>
-                <option value="Bapatla">Bapatla</option>
-                <option value="Guntur">Guntur</option>
-                <option value="ongole">ongole</option>
-            </select>
-        <label>Village*</label>
-            <select>
-                <option value="select" disabled selected>----select------ </option>
-                <option value="Chirala">Chirala</option>
-                <option value="Bapatla">Bapatla</option>
-                <option value="Guntur">Guntur</option>
-                <option value="ongole">ongole</option>
-            </select><br><br>
-    
-         <label>Pin Code*</label>
-         <input type="text" required>
+    <h1 align="center">Mobile Number pattern</h1>
+    <label>Phone Number:</label>
+    <input type="tel" pattern="\+91\s[6-9][0-9]{9}" title="Enter a number in the form of +91 9XXXXXXXXX"><br><br>
+    <button>submit</button>
     </fieldset>
-    <fieldset>
-        <legend><h4>Pass Details</h4></legend>
-        <label>city</label>
-        <select>
-            <option value="Vijayawada">Vijayawada</option>
-            <option value="Guntur">Guntur</option>
-            <option value="Bapatla">Bapatla</option>
-        </select><br><br>
-        <label>Pass Type</label>
-        <select>
-            <option value="select" disabled selected>----select------ </option>
-            <option value="Chirala">Chirala</option>
-            <option value="Bapatla">Bapatla</option>
-            <option value="Guntur">Guntur</option>
-            <option value="ongole">ongole</option>
-        </select>
-    </fieldset>
-    <fieldset>
-        <legend><h4>Mode Of Payment & Pass collection</h4></legend>
-        <label>Payment mode</label>
-        <select>
-            <option value="offline">Offline</option>
-            <option value="online">Online</option>
-        </select><br><br>
-        <label>pass delivery mode</label>
-        <select>
-            <option value="post">post</option>
-            <option value="At Bus stand">At Bus stand</option>
-        </select><br><br>
-        <label>center at which you want to take pass</label>
-        <select>
-            <option value="select" disabled="select">----select------</option>
-            <option value="Chirala">Chirala</option>
-            <option value="Bapatla">Bapatla</option>        
-        </select>
-    </fieldset>
-    <img src="https://static.vecteezy.com/system/resources/previews/002/012/627/non_2x/captcha-illustration-red-crossed-out-letters-on-white-background-vector.jpg" width="200px" height="100px" alt="Centered Image"><br>
-    <input required><br>
-    <button type="submit">Submit</button>
     </form>
 </body>
 </html>
